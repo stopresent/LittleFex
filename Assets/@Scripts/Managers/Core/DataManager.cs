@@ -1,5 +1,5 @@
 //using Data;
-using Newtonsoft.Json;
+//using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -23,11 +23,11 @@ public class DataManager
         //MaterialDic = LoadJson<Data.MaterialDataLoader, int, Data.MaterialData>("MaterialData").MakeDict();
     }
 
-    Loader LoadJson<Loader, Key, Value>(string path) where Loader : ILoader<Key, Value>
-    {
-        TextAsset textAsset = Managers.Resource.Load<TextAsset>($"{path}");
-        return JsonConvert.DeserializeObject<Loader>(textAsset.text);
-    }
+    //Loader LoadJson<Loader, Key, Value>(string path) where Loader : ILoader<Key, Value>
+    //{
+    //    TextAsset textAsset = Managers.Resource.Load<TextAsset>($"{path}");
+    //    return JsonConvert.DeserializeObject<Loader>(textAsset.text);
+    //}
 
 
 }
