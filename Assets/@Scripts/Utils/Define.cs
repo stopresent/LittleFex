@@ -8,7 +8,11 @@ public class Define
     {
         Unknown,
         TitleScene,
+        IntroScene,
         LobbyScene,
+        LoadingScene,
+        //TownScene, 어떤 마을인지 이름이 정해지면 각 마을 마다 씬을 만들어야 됨.
+        DungeonScene,
         GameScene,
     }
 
