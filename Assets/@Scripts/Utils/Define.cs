@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Define
 {
+    #region Enum
+
     public enum Scene
     {
         Unknown,
@@ -35,4 +37,5 @@ public class Define
         EndDrag,
     }
 
+    #endregion
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -42,7 +42,7 @@ public class UIManager
         if (cs != null)
         {
             cs.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-            cs.referenceResolution = new Vector2(1080, 1920);
+            cs.referenceResolution = new Vector2(1920, 1080);
         }
 
         go.GetOrAddComponent<GraphicRaycaster>();
